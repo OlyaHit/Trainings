@@ -1,4 +1,4 @@
-package trainings;
+package trainingsStart;
 
 public class Digits {
 

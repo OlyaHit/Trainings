@@ -1,4 +1,4 @@
-package trainings;
+package trainingsStart;
 
 //Вывести алфавит от A-Z по 6 шт. в строку
 

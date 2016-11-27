@@ -1,5 +1,4 @@
-package trainings;
-
+package trainingsStart;
 import java.util.Scanner;
 
 public class DoWhile {
