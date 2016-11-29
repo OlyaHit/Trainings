@@ -1,4 +1,4 @@
-
+package trainingsStart;
 import java.util.Random;
 
 public class RandomGener {
