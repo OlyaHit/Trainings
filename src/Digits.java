@@ -1,4 +1,3 @@
-package trainings;
 
 public class Digits {
 

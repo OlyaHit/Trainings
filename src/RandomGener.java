@@ -1,4 +1,3 @@
-package trainings;
 
 import java.util.Random;
 
