@@ -1,3 +1,4 @@
+package loops;
 
 public class ChangeChar {
 	public String convertSlashes(String pathName)

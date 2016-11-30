@@ -1,3 +1,4 @@
+package loops;
 
 // нечетные цифры карты сум+цифра, четные цифра меньше 5 - сумм+2*цифру, 5 и больше - сумма +2*цифру-9
 public class CreditCardValid
@@ -27,8 +28,8 @@ public class CreditCardValid
             	sum = sum + digit;
             } else if (digit < 5){
             	sum = sum + 2 * digit;
-            }else
-            { sum = sum + 2 * digit - 9;}
+            }else{ 
+            	sum = sum + 2 * digit - 9;}
             n = n/10;	
         }
    

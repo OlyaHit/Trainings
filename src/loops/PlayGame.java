@@ -1,3 +1,4 @@
+package loops;
 
 //Quiz: Know when to quit
 //You need to modify the function int martingale() by adding an extra if block that checks if the money value has reached or exceeded the target specified if(money >= target). If it has, then the code should break out of the while loop using the break; statement

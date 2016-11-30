@@ -1,3 +1,4 @@
+package loops;
 
 public class Whileloop5dice {
 
