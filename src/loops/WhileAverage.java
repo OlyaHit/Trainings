@@ -26,6 +26,7 @@ public class WhileAverage {
 		        }
 		        double average = sum / count;
 		        System.out.printf("Average: %.2f\n", average);
+		        System.out.print("Count: "+count);
 		    }
 
 }
