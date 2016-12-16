@@ -17,7 +17,7 @@ public class ArrayToArrayList {
         for (String str : listOfStrings)
             System.out.print(" " + str);
         // изменяем элемент в массиве и видим, что элемент также меняется и в списке.
-        arrayOfStrings[0] = "5";
+        arrayOfStrings[0] = "9";
         System.out.println("\nИзменения в массиве повлияли и на ArrayList");
         for(String str:listOfStrings){
         	System.out.println(" "+ str );
