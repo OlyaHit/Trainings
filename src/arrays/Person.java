@@ -2,11 +2,11 @@ package arrays;
 
 import java.util.ArrayList;
 
-public class PersonArrayList {
+public class Person {
 	private String name;
     private ArrayList<String> friends;
 
-    public PersonArrayList(String name)
+    public Person(String name)
     {
         this.name = name;
         friends = new ArrayList<String>();
@@ -16,7 +16,7 @@ public class PersonArrayList {
      * Adds the given friend to this Person's friends list.
      * @param friend the friend to add.
      */
-    public void addFriend(PersonArrayList friend)
+    public void addFriend(Person friend)
     {
         friends.add(friend.name);
     }
@@ -49,19 +49,35 @@ public class PersonArrayList {
     public int getNumFriends()
     {
     	return friends.size();
+    }
 
+    public void unfriend(Person nonFriend)
+    {
+        // YOUR CODE HERE
+        // Implement the unfriend method.
+        // you can use the find(Person friend) method to get
+        // the index of a friend (Code below).
 
     }
 
+    /**
+     * Finds friend in the friends list
+     * @param a person to search for
+     * @return -1 if the person is not found. The index of the person otherwise.
+     */
+    
+    
 	public static void main(String[] args) {
-		PersonArrayList newfriend = new PersonArrayList("Tolly HAN");
+		Person newfriend = new Person("Tolly HAN");
 		newfriend.friends.add("GUKK Jan");
 		newfriend.friends.add("Lenny");
 		newfriend.friends.add("Addam");
+		
 		newfriend.addFriend(newfriend);
 		System.out.println(newfriend.getFriends());
 		System.out.println(newfriend.getFriend(2));
 		System.out.println(newfriend.getNumFriends());
+		
 	}
 
 }
