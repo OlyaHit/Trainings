@@ -18,11 +18,12 @@ public class ReverseArray {
 		int [] oldArray ={2,5,4,8,9};
 		for (int i=oldArray.length-1;i>=0;i--){
 			System.out.print(oldArray[i] + " ");
+			
 		} 
-		//String message =Arrays.toString(oldArray);
-		//System.out.println(message);
+		
 		System.out.println();
 		int [] result =reverse(oldArray);
+		System.out.println(Arrays.toString(reverse(oldArray)));
 		for (int i=0;i<result.length;i++){
 			System.out.print(result[i] + " ");
 		}

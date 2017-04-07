@@ -8,6 +8,7 @@ public class RandomGener {
 	
 		Random rnd=new Random();
         int a= (int)rnd.nextInt(899)+100;
+        int abc = (int)(100+Math.random()*100);
         int b=a%10;
         int c=(a/10)%10;
         int d=(a/100)%10;
@@ -22,7 +23,7 @@ public class RandomGener {
                 System.out.println("В числе "+a+" наибольшая цифра " +d);
             }
         }		
-		
+		System.out.println(abc);
 		
 		
 	}

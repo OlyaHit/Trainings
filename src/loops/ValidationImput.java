@@ -3,7 +3,18 @@ package loops;
 import java.util.Scanner;
 
 public class ValidationImput {
-
+	
+	public boolean checkString(String string) {
+        try {
+            Integer.parseInt(string);
+        } catch (Exception e) {
+            return false;
+        }
+        return true;
+    }
+	
+	
+	
 	public static void main(String[] args) {
 	 Scanner scr = new Scanner(System.in);
 	 int value;

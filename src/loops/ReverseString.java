@@ -1,5 +1,7 @@
 package loops;
 
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+
 public class ReverseString {
 	
 	private String twitterPost;
@@ -36,11 +38,22 @@ public class ReverseString {
     	}
 		return backwords;
     }
+    
+
+    public String reverseStringWithCharAt() {
+            int stringLength = twitterPost.length();
+            String result = "";
+            for (int i = 0; i < stringLength; i++) {
+                result = twitterPost.charAt(i) + result;
+            }
+            return result;
+        }
 	
 	public static void main(String[] args) {
 		ReverseString message = new ReverseString("TuOjy dyuyfu iouu");	
 		System.out.println(message.shorten());
 		System.out.println(message.reverse());
+		System.out.println(message.reverseStringWithCharAt());
 	}
 
 }
