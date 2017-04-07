@@ -3,7 +3,7 @@ package stringAndChar;
 public class StringReverse {
 	public static String reverseStringWithCharAt(String inputString) {
 		String result = "";
-		if (inputString.equals(null) || inputString.isEmpty()) {
+		if (inputString==null || inputString.isEmpty()) {
 			return inputString;
 		}else{
 		for (int i = inputString.length() - 1; i >= 0; i--) {
@@ -23,9 +23,17 @@ public class StringReverse {
 		}
 	}
 
+	public static String reverseString(String inputString){
+		if (inputString==null || inputString.isEmpty()) 
+			return inputString;
+		String reversed = new StringBuffer(inputString).reverse().toString();
+		return reversed;
+		
+	}
 	public static void main(String[] args) {
 		String str = "123";
 		System.out.println(reverseStringWithCharAt(str));
+		System.out.println(reverseString(str));
 		//System.out.println(reverseWithCharArray(str));
 	}
 
