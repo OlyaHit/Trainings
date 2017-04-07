@@ -1,4 +1,5 @@
 package loops;
+
 import java.util.Scanner;
 
 public class WhileLoopWithBreak {
@@ -8,29 +9,17 @@ public class WhileLoopWithBreak {
 		System.out.println("¬ведите число: ");
 		int dice = scan.nextInt();
 		
-//		while (dice!=6){
-//			System.out.println("¬ведите число: ");
-//			dice = scan.nextInt();
-//			if (dice==6){
-//				System.out.println("WIN");
-//				break;
-//			}else if(dice==3){
-//				System.out.println("LOSE");
-//				break;
-//			}
-//		}
-		do{
-			System.out.println("¬ведите число: ");
-			dice = scan.nextInt();
-			if (dice==6){
-				System.out.println("WIN");
-				break;
-			}else if(dice==3){
-				System.out.println("LOSE");
-				break;
-			}
-		}while(dice!=6);
+	do {
+		if (dice==6){
+			System.out.println("WIN");
+			break;
+		}else if(dice==3){
+			System.out.println("LOSE");
+			break;
+		}
+		System.out.println("¬ведите число: ");
+		dice = scan.nextInt();
 		
+	}while(true);
 	}
-
 }

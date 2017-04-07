@@ -1,6 +1,6 @@
 package arrays;
 
-public class Test {
+public class SortTest {
 
 	public static void main(String[] args) {
 		  //Sort array of string

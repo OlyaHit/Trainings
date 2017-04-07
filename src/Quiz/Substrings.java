@@ -1,5 +1,7 @@
 package Quiz;
 
+import com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable;
+
 public class Substrings {
 
 	private String myWord;
@@ -22,9 +24,18 @@ public class Substrings {
 	       
 	    }
 	
+	public void substrings (){
+		  for (String retval : myWord.split(" ")) {
+		         System.out.println(retval);
+		      }	
+	}
+	
+
 	public static void main(String[] args) {
 		Substrings myFraz = new Substrings("Frank go to the cinema with friends");
 		System.out.println(myFraz.getSubstrings());
+		
+		myFraz.substrings();
 	}
 
 }

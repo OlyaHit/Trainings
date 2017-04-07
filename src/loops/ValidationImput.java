@@ -19,7 +19,7 @@ public class ValidationImput {
          System.out.print("Enter an integer < 100: ");
          value = scr.nextInt();
      }
-     while (value<0 || value > 100);
+     while (value<0 || value >= 100);
 
      System.out.println("Thank you for entering " + value);
 

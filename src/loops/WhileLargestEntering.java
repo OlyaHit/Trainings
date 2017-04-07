@@ -9,6 +9,7 @@ public class WhileLargestEntering {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter values, Q to quit: ");
         double largest = in.nextDouble();
+       
         while (in.hasNextDouble()) //supply condition here
         {
             double input = in.nextDouble();
