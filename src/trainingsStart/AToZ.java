@@ -9,8 +9,8 @@ public class AToZ {
 		
 		for (char ch='A';ch<='Z';ch++){
 			if(numb==6){
-				System.out.println();
 				numb=0;
+				System.out.println();
 			}
 			System.out.print(ch+ " ");
 			numb++;

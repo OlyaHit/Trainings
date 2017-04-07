@@ -7,7 +7,7 @@ public class BubbleSortApp
 	   int arr[] = new int[10];
 	   for(int i = 0; i < arr.length; i++) {
 	       //элементу массива присваивается случайное число от 0 до 99
-	       arr[i] = (int)(Math.random() * 100);
+	       arr[i] = (int)(1+Math.random() * 100);
 	       System.out.print(arr[i] + "  ");
 	   }
 	   //возрастание вар 1

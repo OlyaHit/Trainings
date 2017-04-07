@@ -22,13 +22,11 @@ public class ArrayToArrayList {
         for(String str:listOfStrings){
         	System.out.println(" "+ str );
         }
-        
      // код ниже выбросит java.lang.UnsupportedOperationException, потому что
         // Arrays.asList() возвращает список фиксированного размера. Ётот размер зависит от размера исходного массива
         //listOfStrings.add("5");
         listOfStrings= new ArrayList<String>();
         Collections.addAll(listOfStrings, arrayOfStrings);
-        
      // »змен€ет и массив, и ArrayList дл€ проверки на взаимозависимость элементов?
         listOfStrings.add("5");
         arrayOfStrings[0] = "1";
@@ -36,13 +34,7 @@ public class ArrayToArrayList {
         for (String str : listOfStrings)
             System.out.print(" " + str);
         
-        //Ќаиболее попул€рным
-        ArrayList<String> arrayList = 
-                new ArrayList<String>(Arrays.asList(arrayOfStrings));
-        System.out.println("\nArray в ArrayList с помощью метода Ќаиболее попул€рным");
-        for (String goodStr:arrayList){
-        	  System.out.print(" " + goodStr);
-        }
+        
         
 	}
 

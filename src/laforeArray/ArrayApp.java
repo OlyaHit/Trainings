@@ -41,14 +41,11 @@ public class ArrayApp
         else{
            System.out.println("Found " + searchKey); 
            }    // no
-       
 //--------------------------------------------------------------
       searchKey = 55;              // delete item with key 55
       for(j=0; j<nElems; j++) {         // look for it
       if(arr[j] == searchKey){
-         break;
-         }
-      }
+         break;}}
       for(int k=j; k<nElems; k++){      // move higher ones down k<nElems-1
          arr[k] = arr[k+1];}
       nElems--;                 // decrement size
