@@ -1,5 +1,5 @@
 package stringAndChar;
-public class ReverseString {
+public class ReverseWord{
 	
 	public static void main(String[] args) {
 		String input = "yuu tyt fghh";
@@ -10,12 +10,9 @@ public class ReverseString {
 	// There is no built-in reverse method for strings in Java
 	// There is one with String Builder, which does not give the output we want
 	private static String reverse(String input) {
+		verifyString(input);
+		
 		String reverse = "";
-		
-		if (input.isEmpty() || input.equals(null)) {
-			System.out.println("Empty and null strings are not accepted");
-		}
-		
 		if (input.length() == 1) {
 			reverse = input;
 		} else {
@@ -27,5 +24,12 @@ public class ReverseString {
 		}
 		
 		return reverse.trim();
+	}
+	
+	private static void verifyString (String input){
+		
+		if (input.isEmpty() || input.equals(null)) {
+			System.out.println("Empty and null strings are not accepted");
+		}
 	}
 }

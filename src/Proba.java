@@ -17,7 +17,6 @@ public class Proba {
 	
 	public static int getFactorial2(int a){
 		int result=1;
-		int i=1;
 		while (a>0){
 			result*=a;
 			a--;

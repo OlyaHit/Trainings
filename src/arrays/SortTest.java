@@ -20,17 +20,20 @@ public class SortTest {
 		    for(int i = 0; i < Array.length; i++){
 		        System.out.println(Array[i]);
 		    }
-		    
+		   
 		    int duplicates = 0;
 		    for (int k=0;k<Array.length-1;k++){
 		    	for(int b=k+1;b<Array.length; b++){
 		    		if(Array[b].compareTo(Array[k])==0){
 		    			duplicates++;
 		    		}
+		    		
 		    	}
 		    }
 		  
 		    System.out.println(duplicates);
+
+		  
 	}
 
 }

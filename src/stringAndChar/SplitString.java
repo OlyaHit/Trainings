@@ -10,7 +10,7 @@ public class SplitString {
 	      String line = "Как использовать метод split";
 	      String digits = "12 345 68 69";
 	      
-	      String[] words = digits.split("/s");
+	      String[] words = digits.split("\\s+");
 	      String[] twoWords = line.split(" ", 2);
 	      System.out.println("Используем разделитель: " + Arrays.toString(words));
 	      System.out.println("Разделяем на 2 строки: " + Arrays.toString(twoWords));
