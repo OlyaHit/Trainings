@@ -1,9 +1,15 @@
 package trainingsStart;
+
+import java.util.ArrayList;
+import java.util.List;
+
 //Пользователь вводит целое число. Если число чётное, то к нему прибавить 2, а если нечётное, то 1.
 //Не использовать условие "если" (if).
 public class Task1 {
 
 	public static void main(String[] args) {
+		
+		List<Object> newList = new ArrayList<Object>();
 		int digit = 10;
 		int result = digit%2 == 0 ? digit+2 : digit+1; 
 		System.out.println( result  );

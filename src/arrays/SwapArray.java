@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class SwapArray {
 
 	public static void main(String[] args) {
-		int [] array1 = {1,8,7,6,5,4,9,10};
+		int [] array1 = {1,8,7,6,11,5,4,9,10};
 		
 		for (int i=0;i<array1.length/2;i++){
 			int saved=array1[i];
@@ -16,7 +16,7 @@ public class SwapArray {
 		System.out.println(Arrays.toString(array1));
 		//2
 		for (int newArray: array1){
-			System.out.print(newArray);
+			System.out.print(newArray + " ");
 		}
 	}
 	

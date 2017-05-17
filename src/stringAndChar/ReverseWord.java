@@ -2,7 +2,7 @@ package stringAndChar;
 public class ReverseWord{
 	
 	public static void main(String[] args) {
-		String input = "yuu tyt fghh";
+		String input = "yu ka ba";
 		String output = reverse(input);
 		System.out.println(output);
 	}

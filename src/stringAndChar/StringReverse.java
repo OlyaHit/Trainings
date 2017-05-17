@@ -31,7 +31,7 @@ public class StringReverse {
 		
 	}
 	public static void main(String[] args) {
-		String str = "123";
+		String str = "";
 		System.out.println(reverseStringWithCharAt(str));
 		System.out.println(reverseString(str));
 		//System.out.println(reverseWithCharArray(str));

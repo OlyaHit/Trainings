@@ -33,7 +33,7 @@ public class CompareTwoArrays {
         System.out.println(al3);
         
         int [] array1 ={1, 2, 3, 5, 6, 7};
-        int [] array2 ={1, 2, 4, 5, 6};
+        int [] array2 ={1, 2, 4, 5, 6, 8, 9};
         
         List <String> result = new ArrayList <String>();
         for (int i =0, j=0; i<array1.length &&j<array2.length ;i++, j++){

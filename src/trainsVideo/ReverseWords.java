@@ -6,7 +6,7 @@ public class ReverseWords {
 		if (someString.trim().isEmpty()|| someString==null) {
 			  return someString;
 			  }
-		String[] sa = someString.trim().split("\\s");
+		String[] sa = someString.split("\\s");
 		StringBuffer reverse = new StringBuffer(); 
 		
 		for (int i=sa.length-1;i>=0;i--){

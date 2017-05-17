@@ -20,7 +20,7 @@ public class ReverseString {
         {
             if (!"aeiouy".contains(twitterPost.toLowerCase().substring(i, i+1)))
             {
-                shortPost = shortPost + twitterPost.substring(i, i+1);
+                shortPost =  twitterPost.substring(i, i+1)+shortPost;
             }
         }
         return shortPost;

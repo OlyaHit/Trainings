@@ -11,7 +11,7 @@ public class Duplicates {
 
 	public static void main(String[] args) {
 
-		String[] arr = { "hel", "mel", "kel", "hel", "mel" };
+		String[] arr = { "34", "yu", "kel", "hel", "mel" };
 		System.out.println(bruteforce(arr));
 	}
 
